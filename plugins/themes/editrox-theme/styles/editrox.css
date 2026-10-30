@@ -470,3 +470,32 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
 }
+
+/* --- EDITROX EDITORIAL PORTAL DROPDOWN & MENU STYLING --- */
+.pkp_navigation_user_wrapper, .pkp_navigation_primary {
+    align-items: center;
+}
+
+.editrox-portal-menu {
+    background: var(--ed-surface);
+    border: 1px solid var(--ed-border);
+    border-radius: var(--ed-radius);
+    padding: 2.5rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+}
+
+.editrox-portal-menu h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: var(--ed-primary);
+    border-bottom: 2px solid var(--ed-accent);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.editrox-portal-menu h3 {
+    color: var(--ed-primary);
+    margin-top: 1.5rem;
+}
